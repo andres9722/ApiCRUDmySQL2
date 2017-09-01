@@ -1,0 +1,23 @@
+{
+  "name": "crud-nodejs-mysql",
+  "version": "1.0.0",
+  "description": "en este proytecto desarrollaremos una app crud con Node.js, Express y MySQL",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "supervisor app.js"
+  },
+  "author": "Andres Alvarez",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-myconnection": "^1.0.4",
+    "mysql": "^2.14.1",
+    "pug": "^2.0.0-rc.3",
+    "serve-favicon": "^2.4.3"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
